@@ -1,5 +1,7 @@
 # Foundry Security Tests — Fuzz, Invariant & Security Testing Cookbook
 
+[![Forge tests](https://github.com/tiancaijb366-pixel/foundry-security-tests/actions/workflows/test.yml/badge.svg)](https://github.com/tiancaijb366-pixel/foundry-security-tests/actions)
+
 A collection of **runnable Foundry test patterns** for smart contract security testing. Each file demonstrates a real technique you can adapt for your own audits, invariants, and fuzz campaigns.
 
 ## Quick Start
@@ -7,6 +9,12 @@ A collection of **runnable Foundry test patterns** for smart contract security t
 ```bash
 forge install
 forge test
+```
+
+Or use it as a template to bootstrap your own security tests:
+
+```bash
+forge init --template tiancaijb366-pixel/foundry-security-tests
 ```
 
 ## Test Files
