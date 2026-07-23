@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.26"
+ffi = true
+
+[invariant]
+run_limit = 100000
+depth = 1000
